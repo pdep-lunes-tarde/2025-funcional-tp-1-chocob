@@ -5,7 +5,7 @@
 - Nombre del grupo: **Completar**
 
 Integrantes:
-- Legajo: 220 857 0
+- Legajo: 220.857.0
 - Nombre: Franco Ignacio Neme
 
 - Legajo: **Completar** 
