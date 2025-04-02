@@ -2,14 +2,14 @@
 
 ## Grupo, nombre y legajo de integrantes
 
-- Nombre del grupo: **Completar**
+- Nombre del grupo: Chocob
 
 Integrantes:
 - Legajo: 220.857.0
 - Nombre: Franco Ignacio Neme
 
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: 220.683-3 
+- Nombre: Santiago Moretti Murillo
 
 
 ## Objetivos
