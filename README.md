@@ -2,7 +2,7 @@
 
 ## Grupo, nombre y legajo de integrantes
 
-- Nombre del grupo: Chocob
+- Nombre del grupo: Chocobo
 
 Integrantes:
 - Legajo: 220.857-0
