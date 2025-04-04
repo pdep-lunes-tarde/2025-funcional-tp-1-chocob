@@ -5,7 +5,7 @@
 - Nombre del grupo: Chocob
 
 Integrantes:
-- Legajo: 220.857.0
+- Legajo: 220.857-0
 - Nombre: Franco Ignacio Neme
 
 - Legajo: 220.683-3 
