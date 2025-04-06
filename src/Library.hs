@@ -10,6 +10,7 @@ esPositivo :: Number -> Bool
 esPositivo numero = numero > 0
 
 -- escriban el tipo de esta función
+inversa :: Number -> Number
 inversa numero = 1/numero
 
 -- 2. Temperaturas
