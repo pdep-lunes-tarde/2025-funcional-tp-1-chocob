@@ -60,31 +60,28 @@ suiteDeTestsDeParteII =
 
     describe "fahrenheitACelsius y celsiusAFahrenheit son inversas" $ do
       it "convertir un valor en celsius a fahrenheit y luego volver a convertir a celsius retorna el valor original" $ do
-        pendingWith "Escriban el cuerpo de un test en el que se chequee que si convierto un numero a fahrenheit y luego convierto el resultado a celsius obtengo el valor original"
+        fahrenheitACelsius (celsiusAFahrenheit 5) `shouldBeEqualUpTo2Decimals` 5
       it "convertir un valor en fahrenheit a celsius y luego volver a convertir a fahrenheit retorna el valor original" $ do
-        pendingWith "Lo mismo que el test anterior pero al reves"
-      
+        celsiusAFahrenheit (fahrenheitACelsius 104) `shouldBeEqualUpTo2Decimals` 104
 
     describe "haceFrioCelsius" $ do
       -- Pista: hay 3 casos a testear
       it "Es verdad cuando hacen menos de 8 grados celsius" $ do
-        pendingWith "Escribir el cuerpo de este test"
+        haceFrioCelsius (-10) `shouldBe` True
         
-      it "" $ do
-        pendingWith "Escribir un nombre para este test"
+      it "Es verdad cuando hacen 8 grados celsius" $ do
         haceFrioCelsius 8 `shouldBe` True
-      it "" $ do
-        pendingWith "Pensar un caso para este test, escribir el nombre y el cuerpo del mismo"
+      it "Es verdad cuando hacen mas de 8 grados celsius" $ do
+        haceFrioCelsius 9 `shouldBe` False
 
     describe "haceFrioFahrenheit" $ do
       -- Pista: hay 3 casos a testear
-      it "" $ do
-        pendingWith "Pensar un caso para este test, escribir el nombre y el cuerpo del mismo"
-      it "" $ do
-        pendingWith "Escribir un nombre para este test"
+      it "Es verdad cuando hacen menos de 46.4 grados fahrenheit" $ do
+        haceFrioFahrenheit 30 `shouldBe` True
+      it "Es verdad cuando hacen 46.4 grados fahrenheit" $ do
         haceFrioFahrenheit 46.4 `shouldBe` True
-      it "" $ do
-        pendingWith "Pensar un caso para este test, escribir el nombre y el cuerpo del mismo"
+      it "Es verdad cuando hacen mas de 46.4 grados farenheit" $ do
+        haceFrioFahrenheit 47 `shouldBe` False
 
 escribiTestsParaEstaFuncion :: SpecWith ()
 escribiTestsParaEstaFuncion = pure ()
